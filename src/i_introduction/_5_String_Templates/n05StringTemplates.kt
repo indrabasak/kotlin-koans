@@ -35,4 +35,8 @@ fun todoTask5(): Nothing = TODO(
     documentation = doc5(),
     references = { getPattern(); month })
 
-fun task5(): String = todoTask5()
+fun task5(): String {
+    //println("13.06.1992".matches(getPattern().toRegex()))
+    //println("13 JUN 1992".matches("""\d{2} $month \d{4}""".toRegex()))
+    return """\d{2} $month \d{4}""";
+}
