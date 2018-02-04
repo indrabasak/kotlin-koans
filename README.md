@@ -1,4 +1,5 @@
 [![official JetBrains project](http://jb.gg/badges/official-plastic.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
+[![Build Status][travis-badge]][travis-badge-url]
 
 Kotlin Koans
 ===========
@@ -79,3 +80,6 @@ You can solve the similar tasks using Educational Plugin or in the browser:
 - online version of koans http://try.kotl.in
 
 The koans tasks for web-demo and educational plugin can be found here: https://github.com/Kotlin/kotlin-koans-edu
+
+[travis-badge]: https://travis-ci.org/indrabasak/kotlin-koans.svg?branch=master
+[travis-badge-url]: https://travis-ci.org/indrabasak/kotlin-koans/
